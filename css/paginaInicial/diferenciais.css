@@ -1,0 +1,63 @@
+.diferenciais {
+	background-color: var(--amarelo);
+	color: var(--escuro);
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.35;
+	padding: 2.5rem 1.5rem;
+	text-align: justify;
+}
+
+.diferencias__itens {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.diferenciais__item {
+	background-position: top 2.5rem left .5rem;
+	background-repeat: no-repeat;
+	padding-left: 5rem;
+	max-width: 250px;
+}
+
+.diferenciais__titulo {
+	font-size: 1.20rem;
+	font-weight: 700;
+	margin-top: 3rem;
+}
+
+.diferenciais__titulo--descricao {
+	text-align: center;
+	margin: 0;
+}
+
+.diferenciais__texto {
+	margin-top: 1rem;
+}
+
+.diferenciais__item--tempo {
+	background-image: url(../../img/icones/cronometro.png);
+}
+
+.diferenciais__item--foco {
+	background-image: url(../../img/icones/alvo.png);
+}
+
+.diferenciais__item--qualidade {
+	background-image: url(../../img/icones/polegar.png);
+}
+
+@media screen and (min-width: 768px) {
+	.diferencias__itens {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.diferenciais {
+		padding: 2.5rem 15%;
+	}
+	.diferenciais__texto {
+		font-size: 1.20rem;
+	}
+}

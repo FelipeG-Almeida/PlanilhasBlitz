@@ -1,0 +1,73 @@
+.contato {
+	color: var(--escuro-azul);
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	padding: 2rem;
+}
+
+.contato__cabecalho {
+	width: 100%;
+}
+
+.contato__titulo {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1.25;
+	text-align: center;
+}
+
+.contato__texto {
+	background-repeat: no-repeat;
+	background-position: top 50% right 100%;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	padding: 1rem 0;
+	text-align: left;
+}
+
+.contato__container {
+	background-color: var(--amarelo);
+	border-radius: 5px;
+	padding: 0 1rem;
+}
+
+.contato__subtitulo {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-top: 1rem; 
+	line-height: 1.5;
+}
+
+.contato__texto:nth-child(3) {
+	background-image: url(../../img/icones/whatsapp_2.png);
+	padding-left: 45px;
+}
+
+.contato__texto:nth-child(4) {
+	background-image: url(../../img/icones/email.png);
+	padding-left: 45px;
+}
+
+@media screen and (min-width: 768px) {
+	.contato {
+		padding: 3rem 15%;
+	}
+
+	.contato__titulo {
+		font-size: 3rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.contato {
+		column-gap: 1rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.contato__container, .formulario__container {
+		width: calc(50% - 2rem);
+	}
+}

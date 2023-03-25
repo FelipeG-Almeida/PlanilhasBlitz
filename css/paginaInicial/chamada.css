@@ -1,0 +1,51 @@
+.chamada {
+	background-color: var(--laranja);
+	color: var(--escuro-azul);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.chamada__texto {
+	padding: 2rem 2rem;
+	text-align: center;
+}
+
+.chamada__titulo {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 1rem;
+}
+
+.chamada__descricao {
+	font-size: 1.25rem;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.chamada {
+		background-color: var(--cinza);
+		background-image: url(../../img/banner.svg);
+		background-size: contain;
+		background-position: right;
+		background-repeat: no-repeat;
+	}
+
+	.chamada__texto {
+		width: 55%;
+		padding: 3rem 3rem;
+	}
+
+	.chamada__titulo {
+		font-size: 3rem;
+	}
+
+	.chamada__botao {
+		border-color: var(--laranja);
+	}
+
+	.chamada__botao:hover {
+		background-color: var(--laranja);
+		color: var(--branco);
+	}
+}

@@ -1,0 +1,63 @@
+.sobre__conteudo {
+	align-items: center;
+	background-color: var(--cinza);
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	padding: 2rem;
+}
+
+.sobre__conteudo--titulo {
+	background-repeat: no-repeat;
+	background-position: left 50% top 25%;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding-top: 8rem;
+	text-align: center;
+}
+
+.titulo--1 {
+	background-image: url(../../img/icones/interrogacao.png);
+}
+
+.titulo--2 {
+	background-image: url(../../img/icones/objetivo.png);
+}
+
+.sobre__conteudo--texto {
+	font-size: 1.15rem;
+	line-height: 1.5;
+	margin-top: 1.5rem;
+	text-align: justify;
+}
+
+.botao {
+	border-color: var(--laranja);
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+.botao:hover {
+	color: var(--branco);
+	background-color: var(--laranja);
+}
+
+@media screen and (min-width: 768px) {
+	.sobre__conteudo {
+		padding: 2rem 15%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.sobre__conteudo {
+		align-items: flex-start;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.sobre__conteudo--container {
+		width: 45%;
+	}
+
+}

@@ -1,0 +1,40 @@
+.sobre__cabecalho {
+	background: linear-gradient(180deg, var(--laranja) 30%, var(--cinza) 30%);
+	color: var(--escuro-azul);
+	font-family: 'Montserrat', sans-serif;
+	padding: 2rem;
+	text-align: center;
+}
+
+.sobre__cabecalho--imagem {
+	background-color: var(--cinza);
+	border-radius: 100%;
+	width: 190px;
+}
+
+.sobre__cabecalho--titulo {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-top: 2rem;
+}
+
+.sobre__cabecalho--texto {
+	font-size: 1.30rem;
+	line-height: 1.5;
+	margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+	.sobre__cabecalho {
+		padding: 2rem 15%;
+	}
+
+	.sobre__cabecalho--titulo {
+		font-size: 3rem;
+	}
+
+	.sobre__cabecalho--texto {
+		font-size: 1.5rem;
+	}
+}

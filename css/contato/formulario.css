@@ -1,0 +1,50 @@
+.formulario {
+	font-family: 'Arvo', sans-serif;
+}
+
+.contato__label {
+	display: inline-block;
+	font-weight: 700;
+	margin-top: 1rem;
+}
+
+.input__texto {
+	border: none;
+	border-bottom: 2px solid var(--amarelo);
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9rem;
+	outline: none;
+	padding: 1rem 0;
+	width: 100%;
+}
+
+.contato__assunto {
+	margin-top: 1rem;
+}
+
+.mensagem {
+	border: 2px solid var(--amarelo);
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 1rem;
+	outline: none;
+	padding: 1rem;
+	width: calc(100% - 2.25rem);
+}
+
+.enviar {
+	background-color: var(--amarelo);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 1rem;
+	padding: 1rem;
+	transition: 1s all;
+	width: 100%;
+}
+
+.enviar:hover {
+	background-color: var(--laranja);
+	transform: scale(1.01);
+}

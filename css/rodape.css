@@ -1,0 +1,53 @@
+footer {
+	background-color: var(--escuro);
+	color: var(--branco);
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 1rem;
+	text-align: center;
+}
+
+.rodape__titulo {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+}
+
+.rodape__logo {
+	margin: 0 1.5rem;
+	width: 90px;
+}
+
+.rodape__texto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.15rem;
+	font-weight: 700;
+	margin: 1.5rem 0;
+}
+
+.rodape__midias {
+	display: inline;
+}
+
+.rodape__mapa {
+	display: inline-block;
+	margin: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+	footer {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 1.5rem 5%;
+	}
+
+	.rodape__titulo {
+		flex-direction: row;
+	}
+
+	.rodape__mapa {
+		display: block;
+		text-align: left;
+	}
+}

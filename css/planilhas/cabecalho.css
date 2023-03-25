@@ -1,0 +1,48 @@
+.planilhas__cabecalho {
+	color: var(--escuro-azul);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 1rem;
+}
+
+.planilhas__cabecalho--titulo {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1.25;
+	margin: 1rem 0;
+}
+
+.planilhas__cabecalho--texto {
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+	.planilhas__cabecalho {
+		padding: 2rem 10%;
+		text-align: left;
+		background-image: url(../../img/planilhas.jpg);
+		background-size: 40%;
+		background-repeat: no-repeat;
+		background-position: top 50% right 0%;
+	}
+
+	.planilhas__cabecalho--titulo, .planilhas__cabecalho--texto {
+		width: 65%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.planilhas__cabecalho {
+		background-size: contain;
+		background-position: top 50% right 20%;
+	}
+
+	.planilhas__cabecalho--titulo, .planilhas__cabecalho--texto {
+		width: 50%;
+	}
+
+	.planilhas__cabecalho--titulo {
+		font-size: 2rem;
+	}	
+}

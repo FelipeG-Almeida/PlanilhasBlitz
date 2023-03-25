@@ -1,0 +1,32 @@
+.problema {
+	background-color: var(--cinza);
+	padding: 2rem;
+}
+
+.problema__titulo {
+	background-image: url(../../img/icones/problema.png);
+	background-position: top 40% left 0;
+	background-repeat: no-repeat;
+	font-size: 1.5rem;
+	line-height: 1.25;
+	text-align: right;
+	padding: 0 0 2rem 4rem;
+}
+
+.problema__descricao {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+	.problema {
+		padding: 5rem 15%;
+	}
+
+	.problema__titulo {
+		font-size: 2rem;
+		line-height: 1.5;
+	}
+}

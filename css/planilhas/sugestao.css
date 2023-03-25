@@ -1,0 +1,38 @@
+.sugestao {
+	background-color: var(--amarelo);
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	align-items: center;
+	padding: 1rem;
+	row-gap: 1rem;
+	text-align: center;
+}
+
+.sugestao__titulo {
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 1rem;
+}
+
+.sugestao__texto {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.sugestao__botao {
+	border-color: var(--escuro);
+	color: var(--escuro);
+}
+
+.sugestao__botao:hover {
+	background-color: var(--escuro);
+	color: var(--branco);
+}
+
+@media screen and (min-width: 768px) {
+	.sugestao {
+		padding: 3rem 15%;
+	}
+}

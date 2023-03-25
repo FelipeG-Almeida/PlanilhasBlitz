@@ -1,0 +1,46 @@
+.oferta {
+	font-family: 'Montserrat', sans-serif;
+	padding: 2rem;
+	text-align: center;
+}
+
+.oferta__imagem {
+	height: 350px;
+	margin-bottom: 2rem;
+	max-width: 800px;
+	object-fit: cover;
+	object-position: top 0 right 0;
+	width: 100%;
+}
+
+.oferta__preco--1 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	text-decoration: line-through;
+}
+
+.oferta__preco--2 {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+.oferta__texto {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+	.oferta {
+		padding: 2rem 15%;
+	}
+
+	.oferta__imagem {
+		height: auto;
+	}
+
+	.oferta__texto {
+		font-size: 1.4rem;
+	}
+}

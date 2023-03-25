@@ -1,0 +1,77 @@
+span {
+	color: var(--vermelho);
+	font-weight: 700;
+}
+
+.botao {
+	border-color: var(--vermelho);
+	padding: 1rem;
+}
+
+.botao:hover {
+	background-color: var(--vermelho);
+	color: var(--branco);
+}
+
+.headline {
+	background-image: linear-gradient(315deg, #74261E 0%, #2E0F0C 74%);
+}
+
+.solucao {
+	background-image: linear-gradient(315deg, #660900 0%, #2E0F0C 74%);
+}
+
+.solucao__item:nth-child(1) {
+	background-image: url(../../img/icones/dinheiro.png);
+}
+
+.solucao__item:nth-child(2) {
+	background-image: url(../../img/icones/toro.png);
+}
+
+.solucao__item:nth-child(3) {
+	background-image: url(../../img/icones/desempenho.png);
+}
+
+.solucao__item:nth-child(4) {
+	background-image: url(../../img/icones/apertoDeMao.png);
+}
+
+.solucao__item:nth-child(5) {
+	background-image: url(../../img/icones/check.png);
+}
+
+.beneficios__item:nth-child(even) {
+	background-image: linear-gradient(315deg, #660900 0%, #2E0F0C 74%);
+	color: var(--branco);
+}
+
+.beneficios__item--titulo {
+	border-bottom: solid 3px var(--vermelho);
+}
+
+.beneficios__item--caracteristicas:nth-child(1) {
+	background-image: url(../../img/icones/check_2.png);
+}
+
+.beneficios__item--caracteristicas:nth-child(2) {
+	background-image: url(../../img/icones/grafico.png);
+}
+
+.beneficios__item--caracteristicas:nth-child(3) {
+	background-image: url(../../img/icones/estrela.png);
+}
+
+.beneficios__item--caracteristicas:nth-child(4) {
+	background-image: url(../../img/icones/navegacao.png);
+}
+
+.duvidas__titulo {
+	border-bottom: 4px solid var(--vermelho);
+}
+
+@media screen and (min-width: 768px) {
+	.headline {
+		background-image: url(../../img/produtos/gestaoDeGado/background.jpg);
+	}
+}
