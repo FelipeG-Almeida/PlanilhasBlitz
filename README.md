@@ -1,4 +1,4 @@
-![banner](https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/a91a2f0a-1fd5-49c9-92aa-099961137297)
+![banner](https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/0a054a56-453a-4e2e-b85d-629c79ae7cae)
 
 <h1 align="left" id="title">Planilhas Blitz</h1>
 
@@ -9,8 +9,6 @@
 <h2>🚀 Site</h2>
 
 [https://planilhasblitz.com/](https://planilhasblitz.com/)
-
-  
   
 <h2>🧐 Funcionalidades</h2>
 
@@ -20,6 +18,7 @@ Alguns exemplos de funcionalidades do website:
 *   Clique nos links para acessar as diferentes seções do site como "Planilhas" "Sobre" e "Contato".
 *   Explore as planilhas disponíveis na seção "Novidades" e clique nos cards para obter mais informações.
 *   Caso não encontre uma planilha adequada utilize o link "Contato" para entrar em contato com a equipe e solicitar uma planilha personalizada através do formulário disponível.
+*   Através de um link do produto, o usuário é redirecionado ao hotmart para finalizar a compra.
 
 <h2>🛠️ Configuração</h2>
 
@@ -71,3 +70,7 @@ Tecnologias e metodologias utilizadas no projeto:
 *   Mobile First
 
 ## 🤓 Aprendizado
+
+Não há maneira melhor de reconhecer a importância de um framework frontend na construção de uma interface do que construir um website montando seus componentes do zero. A experiência de copiar e colar cada cabeçalho, rodapé e vincular vários arquivos CSS para todas as páginas torna o trabalho verdadeiramente desafiador. No entanto, por meio dessa repetição, consegui alcançar meu objetivo de consolidar meus conhecimentos em CSS e HTML.
+
+---
