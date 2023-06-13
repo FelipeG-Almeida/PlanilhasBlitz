@@ -1,4 +1,4 @@
-![banner](https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/0a054a56-453a-4e2e-b85d-629c79ae7cae)
+<img height="200px" src="https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/0a054a56-453a-4e2e-b85d-629c79ae7cae" />
 
 <h1 align="left" id="title">Planilhas Blitz</h1>
 
@@ -9,6 +9,30 @@
 <h2>🚀 Site</h2>
 
 [https://planilhasblitz.com/](https://planilhasblitz.com/)
+
+<h2>📷 Capturas</h2>
+
+Desktop -
+
+* Tela Inicial
+
+![planilhasblitz com_](https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/5d162447-0779-4f21-a385-f902b5e34f32)
+
+---
+* Sobre
+
+![planilhasblitz com_about html](https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/8995504d-9647-4001-8452-4fc4b5ea883f)
+
+---
+* Contato
+
+![planilhasblitz com_contact html](https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/72a10083-22e6-4763-9a31-a0d37db93d36)
+
+---
+- Mobile
+
+<img width="40%" src="https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/3bc25304-8ced-41f5-ade1-1e5e76f079a8" />
+<img width="40%" src="https://github.com/FelipeG-Almeida/PlanilhasBlitz/assets/73674044/160c6943-9d82-4da7-958a-59d4b4f351dd" />
   
 <h2>🧐 Funcionalidades</h2>
 
